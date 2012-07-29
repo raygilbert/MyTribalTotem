@@ -1,1 +1,14 @@
-www.mytribaltotem.com for more information
+Totems communicate wirelessly by broadcasting an "identity" that says "I am part of this group."  For example, a totem may be programmed with an identifier saying "I am part of the Cancer survivors community."  When a totem hears the broadcast of a matching community, it lights up to visaully indicated that someone from your group (tribe) is around.  When you see another totem lighting up like yours, you know you share something in common with that person.
+
+Totems use peer to peer fully private communications and community. Heretofore, all solutions have relied on GPS tracking and reporting back to a central server to determine who is near by that you might be interested in.  This approach lacks privacy and had been regularly rejected by the market.  
+
+Because we are not an app, we break the tie to the screen and return people to the heads up world.  They can see and interact with other totem owners in reality rather than the ersatz world of the app.
+
+Within this repository is the code for two types of totems.  The first is a Arduino Uno based unit that uses a RF22 for wireless communication.  If you chose to build one of these, please note that the schematic DOES NOT SHOW the terminating resistors between the Arduino and the CSK, CSN, SD1, and SD0 pins on the RF22.  Try 100 ohm resistors to start with.
+
+The second type of totem is a JeeNode based unit.  This version leverages the on-board LED rather than a multi colored LED like the uno,though it is a trivial change to make.
+
+Good luck.  If you have any questions, please don't hesitate to contact me at raymondgilbert@gmail.com
+
+All the Best
+Ray Gilbert and Malcolm Stanley
